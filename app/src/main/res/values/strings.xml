@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notifications Log</string>
+
+
+    <string name="step_one_title">"Notifications"</string>
+    <string name="step_one_subtitle">"find out everything that happens on your mobile"</string>
+
+    <string name="step_two_title">"Easy to consult"</string>
+    <string name="step_two_subtitle">"Record all notifications that come to you"</string>
+
+    <string name="step_three_title">"Auto theme"</string>
+    <string name="step_three_subtitle">"Rest your eyes with the dark theme defined by your device"</string>
+
+    <string name="step_four_title">"Permissions"</string>
+    <string name="step_four_subtitle">"Notifications log needs permissions to access your notifications"</string>
+    <string name="empty_logs">"You don't have any records"</string>
+</resources>

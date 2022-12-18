@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:id="@+id/relativeContent"
+    android:background="?selectableItemBackground"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginEnd="16dp"
+            android:id="@+id/imgPackage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_icon_notification" />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Title"
+                    android:textColor="?android:textColorPrimary" />
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:text="08:56:31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/tvSubtitle"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub Title" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBundle"
+        android:layout_marginTop="10dp"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_marginStart="46dp"
+        android:text="Content Description" />
+
+</RelativeLayout>
